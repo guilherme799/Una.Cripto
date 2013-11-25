@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form id="form1" method="post" action="/Home/Execute" enctype="multipart/form-data">
+    <ul style="list-style: none; padding: 0px;">
+        <li>
+            <label for="Arquivo">Arquivo:</label>
+            <input type="file" accept=".txt" id="Arquivo" name="Arquivo" />
+        </li>
+        <li>
+            <label for="Algoritmo">Algoritmo:</label>
+            <input type="radio" name="Algoritmo" value="DES" checked id="radioDES" />
+            <span>DES</span>
+            <input type="radio" name="Algoritmo" value="AES" id="radioAES" />
+            <span>AES</span>
+        </li>
+        <li>
+            <label for="Modo">Modo de Operação:</label>
+            <input type="radio" name="Mode" value="ECB" checked id="radioECB" />
+            <span>ECB</span>
+            <input type="radio" name="Mode" value="CBC" id="radioCBC" />
+            <span>CBC</span>
+        </li>
+        <li>
+            <label for="Padding">Modo de Padding:</label>
+            <input type="radio" name="Padding" value="Zeros" checked id="radioNone" />
+            <span>Nenhum</span>
+            <input type="radio" name="Padding" value="PKCS7" id="radioPKCS7" />
+            <span>PKCS7</span>
+        </li>
+        <li>
+            <label for="Chave">Chave:</label>
+            <input type="text" id="Key"  name="Key" value=""/>
+            <span id="spnVetorInicializacao">
+                <label for="VetorInicializacao">Vetor de Inicialização:</label>
+                <input type="text" id="IV" name="IV" value="" />
+            </span>
+        </li>
+        <li>
+            <input type="submit" id="btnCriptografar" value="Criptografar" />
+            <input type="submit" id="btnDescriptografar" value="Descriptografar" />
+            <input type="hidden" id="Metodo" value="" name="Metodo" />
+        </li>
+    </ul>
+</form>

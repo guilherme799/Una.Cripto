@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Una.Cripto.Helpers", "Una.Cripto.Helpers\Una.Cripto.Helpers.csproj", "{4857321F-7C36-4DFA-A47B-81E551455925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Una.Cripto.Cliente", "Una.Cripto.Cliente\Una.Cripto.Cliente.csproj", "{A3833B19-3246-4D05-8ED9-01EF59E92EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4857321F-7C36-4DFA-A47B-81E551455925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4857321F-7C36-4DFA-A47B-81E551455925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4857321F-7C36-4DFA-A47B-81E551455925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4857321F-7C36-4DFA-A47B-81E551455925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3833B19-3246-4D05-8ED9-01EF59E92EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3833B19-3246-4D05-8ED9-01EF59E92EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3833B19-3246-4D05-8ED9-01EF59E92EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3833B19-3246-4D05-8ED9-01EF59E92EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
